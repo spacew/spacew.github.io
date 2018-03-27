@@ -2,7 +2,7 @@
 title:  Image Manifold Learning
 date:   2018-March
 cover:  /media/manifold.png
-thumb:  /media/simblee_thumb.jpg
+thumb:  /media/manifold_thumb.png
 
 ---
 
