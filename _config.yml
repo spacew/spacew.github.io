@@ -3,6 +3,8 @@ email: wuhu@us.ibm.com
 greeting: Welcome to Hui Wu's website 
 description: > # this means to ignore newlines until another tag
     Research Scientist, IBM Research AI 
+    > 
+    wuhu _at_ us.ibm.com
 twitter: HuiWu_
 scholar: 1qByqaUAAAAJ&hl=en&oi=ao
 linkedin: hui-wu-90381966
