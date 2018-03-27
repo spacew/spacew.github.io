@@ -6,11 +6,15 @@
             <a href="{{ site.baseurl }}{{ pages.permalink }}">{{ pages.title }}</a>
         {% endif %}
     {% endfor %}
-    {% if site.github %}
-        <a href="https://www.github.com/{{ site.github }}">GitHub</a>
+    {% if site.scholar %}
+        <a href="https://scholar.google.com/citations?user={{ site.scholar }}">Google Scholar</a>
+    {% endif %}
+    {% if site.twitter %}
+        <a href="https://twitter.com/{{ site.twitter }}">Twitter</a>
         <span class="separator">&bull;</span>
     {% endif %}
     {% if site.linkedin %}
         <a href="https://www.linkedin.com/in/{{ site.linkedin }}">LinkedIn</a>
     {% endif %}
 </nav>
+# todo: add github
