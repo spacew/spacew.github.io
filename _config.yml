@@ -1,11 +1,11 @@
-title: Ezora Theme!
-email: git@ezrasavard.com
-greeting: Welcome to the Ezora Sample Site
+title: Personal website of Hui Wu 
+email: wuhu@us.ibm.com
+greeting: Welcome to the Hui Wu's website 
 description: > # this means to ignore newlines until another tag
-    Ezora is a responsive Jekyll theme with a clean single column layout, nifty text overlays for images and a mobile friendly navigation bar.
-github:  ezrasavard
-linkedin: ezrasavard
-favicon: favicon.png
+    Research Scientist, IBM Research AI 
+github:  
+linkedin: hui-wu-90381966
+#favicon: favicon.png
 
 # Build settings
 paginate: 3
@@ -35,14 +35,14 @@ defaults:
             path: ""
             type: "posts"
         values:
-            author: "Ezra Savard"
-            cover: "/media/header.jpg"
+            author: "Hui Wu"
+            cover: "/media/yorktown.png"
             layout: "post"
     -
         scope:
             path: ""
             type: "pages"
         values:
-            author: "Ezra Savard"
-            cover: "/media/header.jpg"
+            author: "Hui Wu"
+            cover: "/media/yorktown.png"
             layout: "default"
