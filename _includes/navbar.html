@@ -6,8 +6,10 @@
             <a href="{{ site.baseurl }}{{ pages.permalink }}">{{ pages.title }}</a>
         {% endif %}
     {% endfor %}
+    
     {% if site.scholar %}
         <a href="https://scholar.google.com/citations?user={{ site.scholar }}">Google Scholar</a>
+        <span class="separator">&bull;</span>
     {% endif %}
     {% if site.twitter %}
         <a href="https://twitter.com/{{ site.twitter }}">Twitter</a>
