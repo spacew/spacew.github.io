@@ -1,8 +1,7 @@
 ---
 title:  Semantic-aware Food Visual Recognition
 date:   2018-March
-cover:  /media/foodvr.png
-thumb:  /media/bacon_thumb.jpg
+thumb:  /media/s3pool_thumb.jpg
 ---
 
 Spicy jalapeno bacon ipsum dolor amet fatback biltong cow dolor lorem, magna tongue sirloin andouille. Mollit leberkas ham jerky non capicola, do pariatur ham hock magna. Chicken boudin irure, laboris pork flank spare ribs. Deserunt fugiat pig labore, pariatur reprehenderit excepteur in nulla.
