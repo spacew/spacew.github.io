@@ -7,7 +7,10 @@ thumb:  /media/progress.png
 ---
 
 <!--more-->
+
 Work in progress. 
-![img](../media/progress.png)
+
+<img alt="img" src="{{site.baseurl}}/media/progress.png">
+
 
 
