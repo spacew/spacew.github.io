@@ -22,7 +22,7 @@ or are only partly available or highly corrupted.
 
 <img alt="img" src="{{site.baseurl}}/media/manifold.png">
 
-**** Related Publications
+#### Related Publications
 
 * Wu, Hui, and Richard Souvenir. "Robust regression on image manifolds for ordered label denoising." CVPR. 2015.
 * Wu, Hui, Toan T. Huynh, and Richard Souvenir. "Echocardiogram enhancement using supervised manifold denoising." Medical image analysis 24.1 (2015): 41-51
