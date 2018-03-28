@@ -8,5 +8,6 @@ thumb:  /media/progress.png
 
 Work in progress. 
 
-<!--more-->
+![img](../media/progress.png)
+
 
