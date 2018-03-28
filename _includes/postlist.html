@@ -4,8 +4,16 @@
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2>{{ post.title }}</h1>
         <div class="image-box">
+            {% if post.thumb %}
+                <img src="{{ site.baseurl }}{{ post.thumb }}">
+            {% endif %}
         </div>
     </a>
+    
+    <p>{{ post.excerpt }}</p>
+    <a href="{{ post.url | prepend: site.baseurl }}"><p style="text-align:center">Read More</p></a>
+    
+</div>
 {% endfor %}
 
 <!-- Pagination links -->
