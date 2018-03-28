@@ -1,7 +1,7 @@
 ---
 title:  S3Pool
 date:   2018-March
-cover:  /media/s3pool.png
+thumb:  /media/s3pool.png
 ---
 
 Abstract of the paper paste here. 
