@@ -1,0 +1,12 @@
+---
+title:  Work in Progress
+date:   2018-April
+cover:  /media/progress.png
+thumb:  /media/progress.png
+
+---
+
+Work in progress. 
+
+<!--more-->
+
