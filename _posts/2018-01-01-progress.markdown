@@ -6,8 +6,8 @@ thumb:  /media/progress.png
 
 ---
 
+<!--more-->
 Work in progress. 
-
 ![img](../media/progress.png)
 
 
