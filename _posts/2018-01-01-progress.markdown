@@ -8,8 +8,6 @@ thumb:  /media/progress.png
 
 <!--more-->
 
-Work in progress. 
-
 <img alt="img" src="{{site.baseurl}}/media/progress.png">
 
 
