@@ -8,4 +8,4 @@ Abstract of the paper paste here.
 
 <!--more-->
 
-* Zhai, Shuangfei, Hui Wu, et al. "S3pool: Pooling with stochastic spatial sampling." CVPR 2017.
+* Zhai, Shuangfei, Hui Wu, et al. "S3pool: Pooling with stochastic spatial sampling." CVPR 2017
