@@ -1,7 +1,6 @@
 ---
 title:  Work in Progress
 date:   2018-Jan
-cover:  /media/progress.png
 thumb:  /media/progress.png
 
 ---
