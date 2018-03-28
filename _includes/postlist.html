@@ -1,9 +1,9 @@
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
 <div class="snippet">
+    <h1 class="title">{{ post.title }{ post.date | date_to_string }}</h1>
     <a href="{{ post.url | prepend: site.baseurl }}">
         <div class="image-box">
-            <h1 class="title">{{ post.title }{ post.date | date_to_string }}</h1>
             <img src="{{ site.baseurl }}{{ post.thumb }}">
         </div>
     </a>
