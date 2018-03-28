@@ -1,5 +1,5 @@
 ---
-title:  S3Pool: Pooling with Stochastic Spatial Sampling
+title:  Pooling with Stochastic Spatial Sampling
 date:   2018-March
 thumb:  /media/s3pool.png
 ---
