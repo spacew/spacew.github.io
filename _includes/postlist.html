@@ -1,11 +1,10 @@
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
 <div class="snippet">
-    {% if post.excerpt %}
-        <p>{{ post.excerpt }}</p>
-        <a href="{{ post.url | prepend: site.baseurl }}"><p style="text-align:center">Read More</p></a>
-    {% endif %}
-    </div>
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        <div class="image-box">
+        </div>
+    </a>
 {% endfor %}
 
 <!-- Pagination links -->
