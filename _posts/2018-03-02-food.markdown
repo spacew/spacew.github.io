@@ -8,5 +8,5 @@ Spicy jalapeno bacon ipsum dolor amet fatback biltong cow dolor lorem, magna ton
 
 <!--more-->
 
-* Wu, Hui, Merler, Michele, et al. "Learning to make better mistakes: Semantics-aware visual food recognition." ACM Multimedia, 2016.
-* Merler, Michele, Wu, Hui, et al. "Snap, Eat, RepEat: a food recognition engine for dietary logging." Proceedings of the 2nd International Workshop on Multimedia Assisted Dietary Management. ACM, 2016.
+* Wu, Hui, Merler, Michele, et al. "Learning to make better mistakes: Semantics-aware visual food recognition." ACM Multimedia, 2016
+* Merler, Michele, Wu, Hui, et al. "Snap, Eat, RepEat: a food recognition engine for dietary logging." Proceedings of the 2nd International Workshop on Multimedia Assisted Dietary Management. ACM, 2016
