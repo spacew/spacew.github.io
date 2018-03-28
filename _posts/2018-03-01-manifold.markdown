@@ -20,6 +20,8 @@ or are only partly available or highly corrupted.
 
 <!--more-->
 
+<img alt="img" src="{{site.baseurl}}/media/manifold.png">
+
 **** Related Publications
 
 * Wu, Hui, and Richard Souvenir. "Robust regression on image manifolds for ordered label denoising." CVPR. 2015.
