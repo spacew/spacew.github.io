@@ -1,0 +1,15 @@
+---
+title:  Dialog-based Interactive Image Retrieval
+date:   2018-April 
+thumb:  /media/fashion_framework.jpg
+---
+
+More content to come
+
+<!--more-->
+
+<img alt="img" src="{{site.baseurl}}/media/s3pool.png">
+
+#### Related Publications
+
+* Zhai, Shuangfei, Hui Wu, et al. "S3pool: Pooling with stochastic spatial sampling." CVPR 2017
