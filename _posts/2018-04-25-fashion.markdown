@@ -32,3 +32,4 @@ communication interface.
 #### Related Publication
 
 * <i>Xiaoxiao Guo, Hui Wu</i>, Yu Cheng, Steve Rennie and Rogerio Feris. "Dialog-based Interactive Image Retrieval." arXiv preprint 2018 (<i>contributed equally</i>)
+
