@@ -1,6 +1,6 @@
 ---
 title:  Pooling with Stochastic Spatial Sampling
-date:   2018-March
+date:   2016-02-01
 thumb:  /media/s3pool.png
 ---
 
