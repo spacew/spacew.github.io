@@ -30,5 +30,5 @@ attributes leads to more effective retrieval results, and a more natural and exp
 
 #### Related Publication
 
-* <i>Xiaoxiao Guo, Hui Wu</i>, Yu Cheng, Steve Rennie and Rogerio Feris. "Dialog-based Interactive Image Retrieval." arXiv preprint 2018 (<i>contributed equally</i>) [pdf](https://arxiv.org/abs/1805.00145)
+* <i>Xiaoxiao Guo, Hui Wu</i>, Yu Cheng, Steve Rennie and Rogerio Feris. "Dialog-based Interactive Image Retrieval." arXiv preprint 2018 (<i>contributed equally</i>) [[pdf](https://arxiv.org/abs/1805.00145)]
 
