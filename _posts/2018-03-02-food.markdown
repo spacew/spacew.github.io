@@ -8,8 +8,7 @@ The growing popularity of fitness applications and people's need for
 easy logging of calorie consumption on mobile devices has
 become made accurate food visual recognition applications increasinly relevant.
 In this project, we proposed a visual food recognition framework that integrates
-the inherent semantic relationships among fine-grained
-classes. 
+the inherent semantic relationships among fine-grained classes. 
 
 <!--more-->
 
