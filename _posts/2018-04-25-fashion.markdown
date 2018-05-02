@@ -24,8 +24,7 @@ is demonstrated in a footwear retrieval application. Extensive experiments on
 both simulated and real-world data show that 1) our proposed learning framework
 achieves better accuracy than other supervised and reinforcement learning baselines
 and 2) user feedback based on natural language rather than pre-specified
-attributes leads to more effective retrieval results, and a more natural and expressive
-communication interface.
+attributes leads to more effective retrieval results, and a more natural and expressive communication interface.
 
 <img alt="img" src="{{site.baseurl}}/media/feedback.jpg">
 
