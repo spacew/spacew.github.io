@@ -1,6 +1,6 @@
 ---
 title:  Dialog-based Interactive Image Retrieval
-date:   2018-April 
+date:   2018-04-25
 thumb:  /media/fashion_framework.jpg
 ---
 A novel framework for interactive image search that enables users
