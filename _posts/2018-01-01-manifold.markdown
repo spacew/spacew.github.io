@@ -1,6 +1,6 @@
 ---
 title:  Image Manifold Learning
-date:   2015-Nov.
+date:   2018-Nov.
 thumb:  /media/manifold_thumb.png
 ---
 Image manifolds offer a perceptually meaningful model to organize images for
