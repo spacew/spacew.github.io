@@ -27,8 +27,8 @@ and 2) user feedback based on natural language rather than pre-specified
 attributes leads to more effective retrieval results, and a more natural and expressive
 communication interface.
 
-<img alt="img" src="{{site.baseurl}}/media/s3pool.png">
+<img alt="img" src="{{site.baseurl}}/media/feedback.jpg">
 
-#### Related Publications
+#### Related Publication
 
-* Xiaoxiao Guo<sup>*</sup>, Hui Wu, Yu Cheng, Steve Rennie and Rogerio Feris. "Dialog-based Interactive Image Retrieval." arXiv preprint 2018
+* <i>Xiaoxiao Guo, Hui Wu</i>, Yu Cheng, Steve Rennie and Rogerio Feris. "Dialog-based Interactive Image Retrieval." arXiv preprint 2018 (<i>contributed equally</i>)
