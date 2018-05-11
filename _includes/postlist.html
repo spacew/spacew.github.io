@@ -12,10 +12,11 @@
         {{ post.conf_name }} 
         <a href="{{post.paper_pdf}}"> [PDF] </a> 
         {% if post.paper_code %} <a href="{{post.paper_code}}"> [CODE] </a> {% endif %}
-        <a href="{{ post.url | prepend: site.baseurl }}"> [Project Page] </a> 
+        {% if post.paper_video %} <a href="{{post.paper_video}}"> [DEMO] </a> {% endif %}
         {%if post.extra_text%}
             <font color="#cc0066"> <a href="{{post.extra_link}}"> [{{post.extra_text}}] </a> </font>
         {% endif %}
+        <a href="{{ post.url | prepend: site.baseurl }}"> [Project Page] </a> 
         <br>
 
         {% if post.thumb %}
