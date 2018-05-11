@@ -58,6 +58,7 @@ We are working on details of code and data release and will give an update soon.
 
 In the mean while, please see a video demo of an user interacting with the dialog agent: 
 
+<img alt="img" src="{{site.baseurl}}/media/fashion_video_snip.jpg">
 <a href="http://www.youtube.com/watch?v=6sabCmwO4So"><img alt="img" src="{{site.baseurl}}/media/fashion_video_snip.jpg"></a>
 
 ### Reference
