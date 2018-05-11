@@ -33,7 +33,9 @@ attributes leads to more effective retrieval results, and a more natural and exp
 
 <img alt="img" src="{{site.baseurl}}/media/feedback.jpg">
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6sabCmwO4So" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+Please see a video demo of an user interacting with the dialog agent: 
+
+[![some text](http://img.youtube.com/vi/6sabCmwO4So/0.jpg)](http://www.youtube.com/watch?v=6sabCmwO4So "Fashion Dialogs")
 
 
 #### Related Publication
