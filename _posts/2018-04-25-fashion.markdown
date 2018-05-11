@@ -26,16 +26,18 @@ natural and expressive dialog feedbacks from the user and iteratively refine the
 <img alt="img" src="{{site.baseurl}}/media/feedback.jpg">
 
 ### Goal-oriented Training of Dialog Manager
-In designing an interactive image retrieval system, making decisions on which images to return to the users
+When designing an interactive image retrieval system, deciding on which images to return to the users
 at each interaction round and how to aggregate the user feedback in a principled way are the essential 
-problems to be addressed. To the best of our knowledge, this is the first time we applied goal-oriented 
-training for the interactive image retrieval, which we call _dialog manager_. Below is the network archetecture
-for our dialog manager, which consists of a response encoder (combines image from the previous round and the
-user feedback), a history encoder (learns to aggregate new evidence with history) and a candidate image 
-selector (stochastic kNN for training and 1-NN for testing). The desired behavior of the dialog manager is to
-learn how to construct the optimal sequence of candidate images to obtain the most informative user feedbacks. 
-Instead of hand-designing the rules for selecting the candidate images, we let the dialog agent to 
-automatically figure out the best way to obtain the feedback based on the ranking metric increase. 
+problems to be addressed. The desired behavior of the retrieval system is to learn how to construct 
+the optimal sequence of candidate images to obtain the most informative user feedbacks. 
+Instead of specifying the rules for candidate image selection and feedback
+aggregation, we let the retrieval system (which we call _dialog manager_) automatically learn to 
+optimize the retrieval objective, the ranking percentile of the target image. To the best of our knowledge, 
+this is the first time goal-oriented training being applied to the context of interactive image retrieval.
+Below is the network architecture for our dialog manager, which consists of (1) a response encoder that
+combines the candidate image from the previous round and the natural language feedback, (2) a history encoder
+for aggregating the new evidence and the dialog history and (3) a candidate image selector, which is simply
+stochastic kNN during training and 1-NN during testing. 
 
 <img alt="img" src="{{site.baseurl}}/media/fashion_framework.jpg">
 
