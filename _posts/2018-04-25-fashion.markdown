@@ -33,6 +33,9 @@ attributes leads to more effective retrieval results, and a more natural and exp
 
 <img alt="img" src="{{site.baseurl}}/media/feedback.jpg">
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6sabCmwO4So" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
 #### Related Publication
 
 * <i>Xiaoxiao Guo, Hui Wu</i>, Yu Cheng, Steve Rennie and Rogerio Feris. "Dialog-based Interactive Image Retrieval." arXiv preprint 2018 (<i>contributed equally</i>) [[pdf](https://arxiv.org/abs/1805.00145)]
