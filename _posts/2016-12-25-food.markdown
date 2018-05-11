@@ -2,6 +2,7 @@
 title:  Semantic-aware Food Visual Recognition
 date:   2016-12-25
 thumb:  /media/foodvr_thumb.png
+publication: xxx 
 ---
 
 The growing popularity of fitness applications and people's need for
