@@ -10,7 +10,7 @@ paper_video: https://www.youtube.com/watch?v=6sabCmwO4So
 paper_code: https://raw.githubusercontent.com/spacew/spacew.github.io/master/media/message.txt
 ---
 
-We proposed a novel type of **dialog agent** for the task of **interactive image retrieval**. 
+We proposed a novel type of __dialog agent__ for the task of __interactive image retrieval__. 
 Recently, there has been a rapid rise of research interest in visually grounded conversational 
 agents, driven by the progress of deep learning architectures for both image and natural 
 language understand problems. While interesting attempts have demonstrated the multitudes 
