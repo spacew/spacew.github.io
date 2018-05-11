@@ -58,8 +58,7 @@ We are working on details of code and data release and will give an update soon.
 
 In the mean while, please see a video demo of an user interacting with the dialog agent: 
 
-[![some text](https://github.com/spacew/spacew.github.io/blob/master/media/fashion_video_snip.jpeg)](http://www.youtube.com/watch?v=6sabCmwO4So "Fashion Dialogs")
-
+<a href="http://www.youtube.com/watch?v=6sabCmwO4So"><img alt="img" src="{{site.baseurl}}/media/fashion_video_snip.jpg"></a>
 
 ### Reference
 
