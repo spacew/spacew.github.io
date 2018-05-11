@@ -14,7 +14,7 @@
             {%if post.paper_code%}
                 <a href="{{post.paper_code}}"> [CODE] </a> 
             {% endif %}
-            <a href="{{ post.url | prepend: site.baseurl }}"><p style="text-align:center"> [Project Page] </p></a>
+            <a href="{{ post.url | prepend: site.baseurl }}"> [Project Page] </a> 
             <br>
             <font color="#990000">{{post.paper_authors}} </font> <br>
             {%if post.extra_text%}
