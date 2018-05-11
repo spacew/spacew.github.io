@@ -21,9 +21,10 @@ the inherent semantic relationships among fine-grained classes.
 
 A simpfied idea as presented in the paper [1] was integrated to Watson Visual
 Recogntion API. And just for fun, I tried the API on puppies versus muffins 
-images ([see the original Tweete](https://twitter.com/HuiWu_/status/869902718210646016)): 
+images:
 
-<img alt="img" src="https://pbs.twimg.com/media/DBKDPEHUAAIIp8R.jpg">
+<blockquote class="twitter-tweet tw-align-center" data-lang="en"><p lang="en" dir="ltr">Puppy or muffin? -- Check out Watson&#39;s answer on it! <br>🤜🤛 <a href="https://twitter.com/JohnRSmithMM?ref_src=twsrc%5Etfw">@JohnRSmithMM</a> <a href="https://twitter.com/IBMWatson?ref_src=twsrc%5Etfw">@IBMWatson</a> <a href="https://twitter.com/IBMResearch?ref_src=twsrc%5Etfw">@IBMResearch</a> <a href="https://twitter.com/CMichaelGibson?ref_src=twsrc%5Etfw">@CMichaelGibson</a> <a href="https://twitter.com/hashtag/food?src=hash&amp;ref_src=twsrc%5Etfw">#food</a> <a href="https://twitter.com/hashtag/ai?src=hash&amp;ref_src=twsrc%5Etfw">#ai</a> <a href="https://twitter.com/hashtag/machinelearning?src=hash&amp;ref_src=twsrc%5Etfw">#machinelearning</a> <a href="https://t.co/ZIfhAfSrh8">pic.twitter.com/ZIfhAfSrh8</a></p>&mdash; Hui Wu (@HuiWu_) <a href="https://twitter.com/HuiWu_/status/869902718210646016?ref_src=twsrc%5Etfw">May 31, 2017</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 #### References
@@ -33,6 +34,5 @@ images ([see the original Tweete](https://twitter.com/HuiWu_/status/869902718210
 [2] Merler, Michele, Wu, Hui, et al. "Snap, Eat, RepEat: a food recognition engine for dietary logging." Proceedings of the 2nd International Workshop on Multimedia Assisted Dietary Management. ACM, 2016
 
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Puppy or muffin? -- Check out Watson&#39;s answer on it! <br>🤜🤛 <a href="https://twitter.com/JohnRSmithMM?ref_src=twsrc%5Etfw">@JohnRSmithMM</a> <a href="https://twitter.com/IBMWatson?ref_src=twsrc%5Etfw">@IBMWatson</a> <a href="https://twitter.com/IBMResearch?ref_src=twsrc%5Etfw">@IBMResearch</a> <a href="https://twitter.com/CMichaelGibson?ref_src=twsrc%5Etfw">@CMichaelGibson</a> <a href="https://twitter.com/hashtag/food?src=hash&amp;ref_src=twsrc%5Etfw">#food</a> <a href="https://twitter.com/hashtag/ai?src=hash&amp;ref_src=twsrc%5Etfw">#ai</a> <a href="https://twitter.com/hashtag/machinelearning?src=hash&amp;ref_src=twsrc%5Etfw">#machinelearning</a> <a href="https://t.co/ZIfhAfSrh8">pic.twitter.com/ZIfhAfSrh8</a></p>&mdash; Hui Wu (@HuiWu_) <a href="https://twitter.com/HuiWu_/status/869902718210646016?ref_src=twsrc%5Etfw">May 31, 2017</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
