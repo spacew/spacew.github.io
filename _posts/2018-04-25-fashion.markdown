@@ -52,19 +52,23 @@ with human annotator in the loop. However, this procedure could be prohibitively
 Think about the case: it takes about one minute to collect one set of dialog with 10 rounds of interactions. 
 So 120k sets of training dialogs requires 2k hours of annotation effort!
 
-To this end, we 
-
-We therefore devised a new vision task: relative image captioning, which aims to serve as a proxy of human annotators and helps to train the dialog agent. The idea is simple: given a pair of images, how do humans describe their visual differences in natural language. To this end, we collected a dataset for relative image captioning (which will be released) and trained a show-attend-tell based captioning generator. See below for generated image captions: 
+To this end, we employed model-based reinforcement learning for training the dialog manager. The user model 
+is based on a novel computer vision task: _relative image captioning_, which learns to describe prominant 
+visual differences between two images using natural language. The trained relative captioner serves
+as a proxy of human annotators and allows for efficient training of the dialog manager without costly annotation. 
+We collected a dataset for relative image captioning (which will be released) and trained a show-attend-tell based captioning generator. 
+We found that although there is a noticeable gap between the generated descriptions and human provided
+descriptions, for the most cases, relative captioner proved to give decent descriptions for images: 
 
 <img alt="img" src="{{site.baseurl}}/media/relative_example.jpg">
 
 <br/>
 ### Code and Dataset 
-We are working on details of code and data release and will give an update soon. 
+We are working on details of code and dataset release and will give an update soon. 
 Meanwhile, below is a video showcasing an user interacting with the dialog manager. 
-I used SlackBot for the first version of the implementation due to its conveninent API for reading messages. 
-But it has restrictions on extending the demo to multiple images per round and letting the user to 
-choose the image to provide feedback on. 
+The first version of the demo uses SlackBot because of its conveninent APIs 
+for reading user messages. But we are working on a better demo to the more 
+useful case of presenting multiple images per round. 
 
 <a href="http://www.youtube.com/watch?v=6sabCmwO4So"><img alt="img" src="{{site.baseurl}}/media/fashion_video_snip.jpeg"></a>
 
