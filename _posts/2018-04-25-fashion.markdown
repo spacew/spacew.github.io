@@ -10,6 +10,8 @@ paper_video: https://www.youtube.com/watch?v=6sabCmwO4So
 paper_code: https://raw.githubusercontent.com/spacew/spacew.github.io/master/media/message.txt
 ---
 
+### Overview
+
 We proposed a novel type of _dialog agent_ for the task of _interactive image retrieval_. 
 Recently, there has been a rapid rise of research interest in visually grounded conversational 
 agents, driven by the progress of deep learning techniques for both image and natural 
@@ -23,12 +25,26 @@ expressive, free-form dialog feedback from the user and iteratively refine the r
 
 <img alt="img" src="{{site.baseurl}}/media/feedback.jpg">
 
-Please see a video demo of an user interacting with the dialog agent: 
+### Approach
+Our goal is to train a dialog manager which takes user’s sequential inputs in natural languages as input, and return to the user a candidate image (one image per round in this paper) to solicit feedback on. The question is: how do we construct the optimal sequence of images to seek feedbacks? In this paper, we let the dialog agent to automatically figure out the best way to obtain the feedback based on the ranking metric increase. But the question is: how do we obtain user feedbacks? 
+However, unsupervised learning and reinforcement learning have not found nearly as much applications. Nonetheless, there are lots of domains where it is hard to obtain fully supervised annotation, and techniques which leverage weak supervision is need. 
+
+The naive way one might use is to include human-in-the-loop, however, this procedure could be costly: it takes about one minute to collect one round of user interactions, if we need 120k set of training data, then 2k hours of annotation work needs to be collected. We therefore devised a new vision task: relative image captioning, which aims to serve as a proxy of human annotators and helps to train the dialog agent. The idea is simple: given a pair of images, how do humans describe their visual differences in natural language. To this end, we collected a dataset for relative image captioning (which will be released) and trained a show-attend-tell based captioning generator. See below for generated image captions: 
+
+
+### Observations
+
+
+### Code and Dataset 
+
+We are working on details of code and data release and will give an update soon. 
+
+In the mean while, please see a video demo of an user interacting with the dialog agent: 
 
 [![some text](http://img.youtube.com/vi/6sabCmwO4So/0.jpg)](http://www.youtube.com/watch?v=6sabCmwO4So "Fashion Dialogs")
 
 
-#### Related Publication
+### Reference
 
-* <i>Xiaoxiao Guo, Hui Wu</i>, Yu Cheng, Steve Rennie and Rogerio Feris. "Dialog-based Interactive Image Retrieval." arXiv preprint 2018 (<i>contributed equally</i>) [[pdf](https://arxiv.org/abs/1805.00145)]
+[1] Xiaoxiao Guo *, Hui Wu, Yu Cheng, Steven Rennie, and Rogerio Schmidt Feris. "Dialog-based Interactive Image Retrieval." arXiv preprint arXiv:1805.00145 (2018).(* equal contribution)
 
