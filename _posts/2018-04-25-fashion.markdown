@@ -10,15 +10,15 @@ paper_video: https://www.youtube.com/watch?v=6sabCmwO4So
 paper_code: https://raw.githubusercontent.com/spacew/spacew.github.io/master/media/message.txt
 ---
 
-We proposed a novel type of __dialog agent__ for the task of __interactive image retrieval__. 
+We proposed a novel type of _dialog agent_ for the task of _interactive image retrieval_. 
 Recently, there has been a rapid rise of research interest in visually grounded conversational 
-agents, driven by the progress of deep learning architectures for both image and natural 
-language understand problems. While interesting attempts have demonstrated the multitudes 
-of potential application values of visually grounded conversational agents in applications 
-such as collabative drawing, visual dialog and object guessing game. In this work, we focus on 
-addressing interactive image retrieval problems by allowing the user to interact via 
-expressive, free-form dialogs.  
-
+agents, driven by the progress of deep learning techniques for both image and natural 
+language understanding. A few interesting applications scenarios have been explored by 
+recent work, such as collaborative drawing, visual dialog and object guessing game. 
+In this work, we tested the value of visually grounded dialog agents in a practical and yet
+challenging context: we proposed a novel framework of image retrieval system which learns to seek 
+expressive, free-form dialog feedback from the user and iteratively refine the retrieval result. 
+ 
 <!--more-->
 
 <img alt="img" src="{{site.baseurl}}/media/feedback.jpg">
