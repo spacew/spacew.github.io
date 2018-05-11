@@ -19,21 +19,33 @@ language understanding. A few interesting application scenarios have been explor
 recent work, such as collaborative drawing, visual dialog and object guessing game. 
 In this work, we tested the value of visually grounded dialog agents in a practical and yet
 challenging context. Specicially, we proposed a novel framework of image retrieval system which learns to seek 
-expressive, free-form dialog feedback from the user and iteratively refine the retrieval result. 
- 
+natural and expressive dialog feedbacks from the user and iteratively refine the retrieval result. 
+
 <!--more-->
 
 <img alt="img" src="{{site.baseurl}}/media/feedback.jpg">
 
-### Approach
-Our goal is to train a dialog manager which takes user’s sequential inputs in natural languages as input, and return to the user a candidate image (one image per round in this paper) to solicit feedback on. The question is: how do we construct the optimal sequence of images to seek feedbacks? In this paper, we let the dialog agent to automatically figure out the best way to obtain the feedback based on the ranking metric increase. But the question is: how do we obtain user feedbacks? 
+### Goal-oriented Training of Dialog Manager
+In designing an interactive image retrieval system, making decisions on which images to return to the users
+at each interaction round and how to aggregate the user feedback in a principled way are the essential 
+problems to be addressed. To the best of our knowledge, this is the first time we applied goal-oriented 
+training for the interactive image retrieval, which we call _dialog manager_. Below is the network archetecture
+for our dialog manager, which consists of a response encoder (combines image from the previous round and the
+user feedback), a history encoder (learns to aggregate new evidence with history) and a candidate image 
+selector (stochastic kNN for training and 1-NN for testing). The desired behavior of the dialog manager is to
+learn how to construct the optimal sequence of candidate images to obtain the most informative user feedbacks. 
+Instead of hand-designing the rules for selecting the candidate images, we let the dialog agent to 
+automatically figure out the best way to obtain the feedback based on the ranking metric increase. 
+
+<img alt="img" src="{{site.baseurl}}/media/fashion_framework.jpg">
+
+### User Simulator using Relative Captioning 
+But the question is: how do we obtain user feedbacks? 
 However, unsupervised learning and reinforcement learning have not found nearly as much applications. Nonetheless, there are lots of domains where it is hard to obtain fully supervised annotation, and techniques which leverage weak supervision is need. 
 
 The naive way one might use is to include human-in-the-loop, however, this procedure could be costly: it takes about one minute to collect one round of user interactions, if we need 120k set of training data, then 2k hours of annotation work needs to be collected. We therefore devised a new vision task: relative image captioning, which aims to serve as a proxy of human annotators and helps to train the dialog agent. The idea is simple: given a pair of images, how do humans describe their visual differences in natural language. To this end, we collected a dataset for relative image captioning (which will be released) and trained a show-attend-tell based captioning generator. See below for generated image captions: 
 
-
-### Observations
-
+<img alt="img" src="{{site.baseurl}}/media/feedback.jpg">
 
 ### Code and Dataset 
 
