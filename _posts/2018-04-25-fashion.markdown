@@ -9,28 +9,17 @@ paper_pdf: https://arxiv.org/abs/1805.00145
 paper_video: https://www.youtube.com/watch?v=6sabCmwO4So
 paper_code: https://raw.githubusercontent.com/spacew/spacew.github.io/master/media/message.txt
 ---
-A novel framework for interactive image search that enables users
-to provide feedback via natural language.
+
+We proposed a novel type of **dialog agent** for the task of **interactive image retrieval**. 
+Recently, there has been a rapid rise of research interest in visually grounded conversational 
+agents, driven by the progress of deep learning architectures for both image and natural 
+language understand problems. While interesting attempts have demonstrated the multitudes 
+of potential application values of visually grounded conversational agents in applications 
+such as collabative drawing, visual dialog and object guessing game. In this work, we focus on 
+addressing interactive image retrieval problems by allowing the user to interact via 
+expressive, free-form dialogs.  
 
 <!--more-->
-
-Existing methods for interactive image retrieval have demonstrated the merit of integrating
-user feedback, improving retrieval results. However, most current systems
-rely on restricted forms of user feedback, such as binary relevance responses, or
-feedback based on a fixed set of relative attributes, which limits their impact. In this
-paper, we introduce a new approach to interactive image search that enables users
-to provide feedback via natural language, allowing for more natural and effective
-interaction. We formulate the task of dialog-based interactive image retrieval as a
-reinforcement learning problem, and reward the dialog system for improving the
-rank of the target image during each dialog turn. To avoid the cumbersome and
-costly process of collecting human-machine conversations as the dialog system
-learns, we train our system with a user simulator, which is itself trained to describe
-the differences between target and candidate images. The efficacy of our approach
-is demonstrated in a footwear retrieval application. Extensive experiments on
-both simulated and real-world data show that 1) our proposed learning framework
-achieves better accuracy than other supervised and reinforcement learning baselines
-and 2) user feedback based on natural language rather than pre-specified
-attributes leads to more effective retrieval results, and a more natural and expressive communication interface.
 
 <img alt="img" src="{{site.baseurl}}/media/feedback.jpg">
 
