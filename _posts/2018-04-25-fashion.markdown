@@ -21,10 +21,12 @@ In this work, we tested the value of visually grounded dialog agents in a practi
 challenging context. Specicially, we proposed a novel framework of image retrieval system which learns to seek 
 natural and expressive dialog feedbacks from the user and iteratively refine the retrieval result. 
 
+
 <!--more-->
 
 <img alt="img" src="{{site.baseurl}}/media/feedback.jpg">
 
+<br/>
 ### Goal-oriented Training of Dialog Manager
 When designing an interactive image retrieval system, deciding on which images to return to the users
 at each interaction round and how to aggregate the user feedback in a principled way are the essential 
@@ -42,24 +44,31 @@ stochastic kNN during training and 1-NN during testing.
 
 <img alt="img" src="{{site.baseurl}}/media/fashion_framework.jpg">
 
+<br/>
 ### User Simulator using Relative Captioning 
 One challenge remains in order to train the dialog management in a goal-oriended, end-to-end fashion: 
 how do we obtain user feedbacks? The natural approach is to train the dialog manager in an online way
 with human annotator in the loop. However, this procedure could be prohibitively slow and expensive.
-it takes about one minute to collect one round of user interactions, if we need 120k set of training data, then 2k hours of annotation work needs to be collected. 
+Think about the case: it takes about one minute to collect one set of dialog with 10 rounds of interactions. 
+So 120k sets of training dialogs requires 2k hours of annotation effort!
+
+To this end, we 
 
 We therefore devised a new vision task: relative image captioning, which aims to serve as a proxy of human annotators and helps to train the dialog agent. The idea is simple: given a pair of images, how do humans describe their visual differences in natural language. To this end, we collected a dataset for relative image captioning (which will be released) and trained a show-attend-tell based captioning generator. See below for generated image captions: 
 
 <img alt="img" src="{{site.baseurl}}/media/relative_example.jpg">
 
+<br/>
 ### Code and Dataset 
-
 We are working on details of code and data release and will give an update soon. 
-
-In the mean while, please see a video demo of an user interacting with the dialog agent: 
+Meanwhile, below is a video showcasing an user interacting with the dialog manager. 
+I used SlackBot for the first version of the implementation due to its conveninent API for reading messages. 
+But it has restrictions on extending the demo to multiple images per round and letting the user to 
+choose the image to provide feedback on. 
 
 <a href="http://www.youtube.com/watch?v=6sabCmwO4So"><img alt="img" src="{{site.baseurl}}/media/fashion_video_snip.jpeg"></a>
 
+<br/>
 ### Reference
 
 <p>
