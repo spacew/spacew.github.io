@@ -62,5 +62,7 @@ In the mean while, please see a video demo of an user interacting with the dialo
 
 ### Reference
 
-[1] Xiaoxiao Guo *, Hui Wu, Yu Cheng, Steven Rennie, and Rogerio Schmidt Feris. "Dialog-based Interactive Image Retrieval." arXiv preprint arXiv:1805.00145 (2018).(* equal contribution)
+<p>
+  [1] Xiaoxiao Guo*, Hui Wu*, Yu Cheng, Steven Rennie, and Rogerio Schmidt Feris. "Dialog-based Interactive Image Retrieval." arXiv preprint arXiv:1805.00145 (2018).(* equal contribution)
+</p>
 
