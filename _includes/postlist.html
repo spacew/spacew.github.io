@@ -7,6 +7,8 @@
     
     
     <p>
+        <img src="{{ site.baseurl }}{{ post.thumb }}">
+
         <font color="#990000">{{post.paper_authors}} </font> <br>
         {{ post.paper_name }} <br> 
         {{ post.conf_name }} 
@@ -18,11 +20,6 @@
         {% endif %}
         <a href="{{ post.url | prepend: site.baseurl }}"> [Project Page] </a> 
         <br>
-
-        {% if post.thumb %}
-        <img src="{{ site.baseurl }}{{ post.thumb }}">
-        {% endif %}
-        
     </p>
 
     <p>{{ post.excerpt }}</p>
