@@ -32,8 +32,9 @@ problems to be addressed. The desired behavior of the retrieval system is to lea
 the optimal sequence of candidate images to obtain the most informative user feedbacks. 
 Instead of specifying the rules for candidate image selection and feedback
 aggregation, we let the retrieval system (which we call _dialog manager_) automatically learn to 
-optimize the retrieval objective, the ranking percentile of the target image. To the best of our knowledge, 
+optimize the retrieval objective, which is the ranking percentile of the target image. To the best of our knowledge, 
 this is the first time goal-oriented training being applied to the context of interactive image retrieval.
+
 Below is the network architecture for our dialog manager, which consists of (1) a response encoder that
 combines the candidate image from the previous round and the natural language feedback, (2) a history encoder
 for aggregating the new evidence and the dialog history and (3) a candidate image selector, which is simply
@@ -42,12 +43,14 @@ stochastic kNN during training and 1-NN during testing.
 <img alt="img" src="{{site.baseurl}}/media/fashion_framework.jpg">
 
 ### User Simulator using Relative Captioning 
-But the question is: how do we obtain user feedbacks? 
-However, unsupervised learning and reinforcement learning have not found nearly as much applications. Nonetheless, there are lots of domains where it is hard to obtain fully supervised annotation, and techniques which leverage weak supervision is need. 
+One challenge remains in order to train the dialog management in a goal-oriended, end-to-end fashion: 
+how do we obtain user feedbacks? The natural approach is to train the dialog manager in an online way
+with human annotator in the loop. However, this procedure could be prohibitively slow and expensive.
+it takes about one minute to collect one round of user interactions, if we need 120k set of training data, then 2k hours of annotation work needs to be collected. 
 
-The naive way one might use is to include human-in-the-loop, however, this procedure could be costly: it takes about one minute to collect one round of user interactions, if we need 120k set of training data, then 2k hours of annotation work needs to be collected. We therefore devised a new vision task: relative image captioning, which aims to serve as a proxy of human annotators and helps to train the dialog agent. The idea is simple: given a pair of images, how do humans describe their visual differences in natural language. To this end, we collected a dataset for relative image captioning (which will be released) and trained a show-attend-tell based captioning generator. See below for generated image captions: 
+We therefore devised a new vision task: relative image captioning, which aims to serve as a proxy of human annotators and helps to train the dialog agent. The idea is simple: given a pair of images, how do humans describe their visual differences in natural language. To this end, we collected a dataset for relative image captioning (which will be released) and trained a show-attend-tell based captioning generator. See below for generated image captions: 
 
-<img alt="img" src="{{site.baseurl}}/media/feedback.jpg">
+<img alt="img" src="{{site.baseurl}}/media/relative_example.jpg">
 
 ### Code and Dataset 
 
@@ -55,7 +58,7 @@ We are working on details of code and data release and will give an update soon.
 
 In the mean while, please see a video demo of an user interacting with the dialog agent: 
 
-[![some text](http://img.youtube.com/vi/6sabCmwO4So/0.jpg)](http://www.youtube.com/watch?v=6sabCmwO4So "Fashion Dialogs")
+[![some text]({{site.baseurl}}/media/fashion_video_snip.jpg)](http://www.youtube.com/watch?v=6sabCmwO4So "Fashion Dialogs")
 
 
 ### Reference
