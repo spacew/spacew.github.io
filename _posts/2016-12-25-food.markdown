@@ -4,10 +4,12 @@ date:   2016-12-25
 thumb:  /media/foodvr_thumb.png
 paper_name: Learning to make better mistakes: Semantics-aware visual food recognition, ACM Multimedia, 2016
 paper_authors: Hui Wu, Michele Merler, et al. 
-paper_pdf: 
+paper_pdf: https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Wu_Robust_Regression_on_2015_CVPR_paper.pdf
+paper_code: https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Wu_Robust_Regression_on_2015_CVPR_paper.pdf
+---
+
 extra_text: Watson API 
 extra_link: https://www.ibm.com/watson/services/visual-recognition/
----
 
 The growing popularity of fitness applications and people's need for
 easy logging of calorie consumption on mobile devices has
