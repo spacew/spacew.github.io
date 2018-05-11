@@ -7,19 +7,17 @@
     
     {% if post.paper_name %}
         <p>
-            {{ post.paper_name }} 
-            {%if post.paper_pdf%}
-                <a href="{{post.paper_pdf}}"> [PDF] </a> 
-            {% endif %}
-            {%if post.paper_code%}
-                <a href="{{post.paper_code}}"> [CODE] </a> 
-            {% endif %}
+            <font color="#990000">{{post.paper_authors}} </font> <br>
+            {{ post.paper_name }} <br> 
+            {{ post.conf_name }} 
+            <a href="{{post.paper_pdf}}"> [PDF] </a> 
+            <a href="{{post.paper_code}}"> [CODE] </a> 
             <a href="{{ post.url | prepend: site.baseurl }}"> [Project Page] </a> 
             {%if post.extra_text%}
                 <font color="#cc0066"> <a href="{{post.extra_link}}"> [{{post.extra_text}}] </a> </font>
             {% endif %}
             <br>
-            <font color="#990000">{{post.paper_authors}} </font> <br>
+            
             
         </p>
     {% endif %}
