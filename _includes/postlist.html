@@ -11,6 +11,11 @@
     </a>
     
     <p>{{ post.excerpt }}</p>
+    
+    {% if post.publication %}
+        <p>{{ post.publication }}</p>
+    {% endif %}
+    
     <a href="{{ post.url | prepend: site.baseurl }}"><p style="text-align:center">Read More</p></a>
     
 </div>
