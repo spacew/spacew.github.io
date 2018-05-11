@@ -4,10 +4,15 @@ date:   2017-05-01
 thumb:  /media/s3pool.png
 paper_name: S3pool - Pooling with stochastic spatial sampling
 conf_name: CVPR 2017
-paper_authors: Shuangfei Zhai, Hui Wu, Abhishek Kumar, Yu Cheng, et al. 
+paper_authors: Zhai, Shuangfei, Hui Wu, Abhishek Kumar, Yu Cheng, Yongxi Lu, Zhongfei Zhang, and Rogerio Feris
 paper_pdf: https://arxiv.org/pdf/1611.05138.pdf
 paper_code: https://github.com/Shuangfei/s3pool
 ---
+
+
+<!--more-->
+
+<img alt="img" src="{{site.baseurl}}/media/s3pool.png">
 
 Feature pooling layers (e.g., max pooling) in convolutional
 neural networks (CNNs) serve the dual purpose
@@ -25,10 +30,6 @@ stochastic version. We observe that this general stochasticity
 acts as a strong regularizer, and can also be seen as
 doing implicit data augmentation by introducing distortions in the feature maps. 
 
-<!--more-->
-
-<img alt="img" src="{{site.baseurl}}/media/s3pool.png">
-
 #### Related Publications
 
-* Zhai, Shuangfei, Hui Wu, et al. "S3pool: Pooling with stochastic spatial sampling." CVPR 2017
+[1] Zhai, Shuangfei, Hui Wu, Abhishek Kumar, Yu Cheng, Yongxi Lu, Zhongfei Zhang, and Rogerio Feris. "S3pool: Pooling with stochastic spatial sampling." CVPR 2017
