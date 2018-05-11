@@ -15,11 +15,12 @@
                 <a href="{{post.paper_code}}"> [CODE] </a> 
             {% endif %}
             <a href="{{ post.url | prepend: site.baseurl }}"> [Project Page] </a> 
+            {%if post.extra_text%}
+                <font color="#cc0066"> <a href="{{post.extra_link}}"> [{{post.extra_text}}] </a> </font>
+            {% endif %}
             <br>
             <font color="#990000">{{post.paper_authors}} </font> <br>
-            {%if post.extra_text%}
-                <a href="{{post.extra_link}}"> {{post.extra_text}} </a> 
-            {% endif %}
+            
         </p>
     {% endif %}
     
