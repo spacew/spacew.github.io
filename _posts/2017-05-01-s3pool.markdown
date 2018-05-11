@@ -4,7 +4,7 @@ date:   2017-05-01
 thumb:  /media/s3pool.png
 paper_name: S3pool - Pooling with stochastic spatial sampling
 conf_name: CVPR 2017
-paper_authors: Zhai, Shuangfei, Hui Wu, et al
+paper_authors: Shuangfei Zhai, Hui Wu, Abhishek Kumar, Yu Cheng, et al. 
 paper_pdf: https://arxiv.org/pdf/1611.05138.pdf
 paper_code: https://github.com/Shuangfei/s3pool
 ---
