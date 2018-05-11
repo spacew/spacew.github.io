@@ -4,6 +4,7 @@ date:   2015-11-15
 thumb:  /media/manifold_thumb.png
 paper_name: Robust regression on image manifolds for ordered label denoising
 paper_authors: Hui Wu and Richard Souvenir
+conf_name: CVPR 2017
 paper_pdf: https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Wu_Robust_Regression_on_2015_CVPR_paper.pdf
 paper_code: https://github.com/spacew/spacew.github.io/blob/master/media/h3r.zip?raw=true
 
