@@ -58,7 +58,7 @@ We are working on details of code and data release and will give an update soon.
 
 In the mean while, please see a video demo of an user interacting with the dialog agent: 
 
-[![some text]({{site.baseurl}}/media/fashion_video_snip.jpg)](http://www.youtube.com/watch?v=6sabCmwO4So "Fashion Dialogs")
+[![some text](https://github.com/spacew/spacew.github.io/blob/master/media/fashion_video_snip.jpeg)](http://www.youtube.com/watch?v=6sabCmwO4So "Fashion Dialogs")
 
 
 ### Reference
