@@ -38,8 +38,8 @@ optimize the retrieval objective, which is the ranking percentile of the target 
 this is the first time goal-oriented training being applied to the context of interactive image retrieval.
 
 Below is the network architecture for our dialog manager, which consists of (1) a response encoder that
-combines the candidate image from the previous round and the natural language feedback, (2) a history encoder
-for aggregating the new evidence and the dialog history and (3) a candidate image selector, which is simply
+combines the candidate image from the previous round and the natural language feedback, (2) a history tracker
+for aggregating the new evidence and the dialog history and (3) a candidate image generator, which is simply
 stochastic kNN during training and 1-NN during testing. 
 
 <img alt="img" src="{{site.baseurl}}/media/fashion_framework.jpg">
@@ -58,7 +58,8 @@ visual differences between two images using natural language. The trained relati
 as a proxy of human annotators and allows for efficient training of the dialog manager without costly annotation. 
 We collected a dataset for relative image captioning (which will be released) and trained a show-attend-tell based captioning generator. 
 We found that although there is a noticeable gap between the generated descriptions and human provided
-descriptions, for the most cases, relative captioner proved to give decent descriptions for images: 
+descriptions, for the most cases, relative captioner is able to provide decent descriptions for an given pair of
+images: 
 
 <img alt="img" src="{{site.baseurl}}/media/relative_example.jpg">
 
@@ -67,8 +68,8 @@ descriptions, for the most cases, relative captioner proved to give decent descr
 We are working on details of code and dataset release and will give an update soon. 
 Meanwhile, below is a video showcasing an user interacting with the dialog manager. 
 The first version of the demo uses SlackBot because of its conveninent APIs 
-for reading user messages. But we are working on a better demo to the more 
-useful case of presenting multiple images per round. 
+for reading user messages. But we are working on a better demo which can work in a more
+useful scenario of presenting multiple images per round. 
 
 <a href="http://www.youtube.com/watch?v=6sabCmwO4So"><img alt="img" src="{{site.baseurl}}/media/fashion_video_snip.jpeg"></a>
 
