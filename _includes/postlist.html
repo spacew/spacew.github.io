@@ -3,27 +3,29 @@
 <div class="snippet">
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2>{{ post.title }}</h1>
-        <div class="image-box">
-            {% if post.thumb %}
-                <img src="{{ site.baseurl }}{{ post.thumb }}">
-            {% endif %}
-        </div>
     </a>
     
     {% if post.paper_name %}
         <p>
-            {{post.paper_authors}}{{ post.paper_name }} 
+            {{ post.paper_name }} <br>
+            <font color="red">{{post.paper_authors}} </font> <br>
             {%if post.paper_pdf%}
-                <a href="{{post.paper_pdf}}">PDF</a> 
+                <a href="{{post.paper_pdf}}"> PDF </a> 
             {% endif %}
             {%if post.paper_code%}
-                <a href="{{post.paper_code}}">CODE</a> 
+                <a href="{{post.paper_code}}"> CODE </a> 
             {% endif %}
             {%if post.extra_text%}
-                <a href="{{post.extra_link}}">{{post.extra_text}}</a> 
+                <a href="{{post.extra_link}}"> {{post.extra_text}} </a> 
             {% endif %}
         </p>
     {% endif %}
+    
+    <div class="image-box">
+        {% if post.thumb %}
+            <img src="{{ site.baseurl }}{{ post.thumb }}">
+        {% endif %}
+    </div>
     
     <p>{{ post.excerpt }}</p>
     
