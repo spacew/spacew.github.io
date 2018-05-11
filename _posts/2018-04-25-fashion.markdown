@@ -5,7 +5,7 @@ thumb:  /media/fashion_framework.jpg
 paper_name: Dialog-based Interactive Image Retrieval, arXiv preprint 2018
 paper_authors: Xiaoxiao Guo*, Hui Wu*, Yu Cheng, Steve Rennie and Rogerio Feris (* equal contribution)
 paper_pdf: https://arxiv.org/abs/1805.00145
-paper_code: https://github.com/spacew/spacew.github.io/blob/master/media/message.txt
+paper_code: https://raw.githubusercontent.com/spacew/spacew.github.io/master/media/message.txt
 ---
 A novel framework for interactive image search that enables users
 to provide feedback via natural language.
