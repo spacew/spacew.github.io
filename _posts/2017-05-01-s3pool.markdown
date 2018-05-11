@@ -2,6 +2,10 @@
 title:  Pooling with Stochastic Spatial Sampling
 date:   2017-05-01
 thumb:  /media/s3pool.png
+paper_name: S3pool: Pooling with stochastic spatial sampling, CVPR 2017
+paper_authors: Zhai, Shuangfei, Hui Wu, et al
+paper_pdf: https://arxiv.org/pdf/1611.05138.pdf
+paper_code: https://github.com/Shuangfei/s3pool
 ---
 
 Feature pooling layers (e.g., max pooling) in convolutional
