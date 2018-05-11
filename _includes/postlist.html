@@ -5,31 +5,27 @@
         <h2 class="post-title-text">{{ post.title }}</h2>
     </a>
     
-    {% if post.paper_name %}
-        <p>
-            <font color="#990000">{{post.paper_authors}} </font> <br>
-            {{ post.paper_name }} <br> 
-            {{ post.conf_name }} 
-            <a href="{{post.paper_pdf}}"> [PDF] </a> 
-            <a href="{{post.paper_code}}"> [CODE] </a> 
-            <a href="{{ post.url | prepend: site.baseurl }}"> [Project Page] </a> 
-            {%if post.extra_text%}
-                <font color="#cc0066"> <a href="{{post.extra_link}}"> [{{post.extra_text}}] </a> </font>
-            {% endif %}
-            <br>
-            
-            
-        </p>
-    {% endif %}
     
-    {% if post.thumb %}
+    <p>
+        <font color="#990000">{{post.paper_authors}} </font> <br>
+        {{ post.paper_name }} <br> 
+        {{ post.conf_name }} 
+        <a href="{{post.paper_pdf}}"> [PDF] </a> 
+        {% if post.paper_code %} <a href="{{post.paper_code}}"> [CODE] </a> {% endif %}
+        <a href="{{ post.url | prepend: site.baseurl }}"> [Project Page] </a> 
+        {%if post.extra_text%}
+            <font color="#cc0066"> <a href="{{post.extra_link}}"> [{{post.extra_text}}] </a> </font>
+        {% endif %}
+        <br>
+
+        {% if post.thumb %}
         <img src="{{ site.baseurl }}{{ post.thumb }}">
-    {% endif %}
+        {% endif %}
+        
+    </p>
 
     <p>{{ post.excerpt }}</p>
-    
-    
-    
+   
 </div>
 {% endfor %}
 
