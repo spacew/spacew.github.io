@@ -19,6 +19,13 @@ the inherent semantic relationships among fine-grained classes.
 
 <img alt="img" src="{{site.baseurl}}/media/foodvr.png">
 
+A simpfied idea as presented in the paper [1] was integrated to Watson Visual
+Recogntion API. And just for fun, I tried the API on puppies versus muffins 
+images: 
+
+<img alt="img" src="https://pbs.twimg.com/media/DBKDPEHUAAIIp8R.jpg">
+
+
 #### References
 
 [1] Wu, Hui, Merler, Michele, et al. "Learning to make better mistakes: Semantics-aware visual food recognition." ACM Multimedia, 2016
