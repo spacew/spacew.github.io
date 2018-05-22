@@ -6,7 +6,7 @@ paper_name: Dialog-based Interactive Image Retrieval
 conf_name: arXiv preprint 2018
 paper_authors: Xiaoxiao Guo*, Hui Wu*, Yu Cheng, Steve Rennie and Rogerio Feris (* equal contribution)
 paper_pdf: https://arxiv.org/abs/1805.00145
-paper_video: https://www.youtube.com/watch?v=6sabCmwO4So
+paper_video: https://youtu.be/z4EfAMS-7WU
 paper_code: https://raw.githubusercontent.com/spacew/spacew.github.io/master/media/message.txt
 ---
 
@@ -71,7 +71,7 @@ The first version of the demo uses SlackBot because of its conveninent APIs
 for reading user messages. But we are working on a better demo which can work in a more
 useful scenario of presenting multiple images per round. 
 
-<a href="http://www.youtube.com/watch?v=6sabCmwO4So"><img alt="img" src="{{site.baseurl}}/media/fashion_video_snip.jpeg"></a>
+<a href="https://youtu.be/z4EfAMS-7WU"><img alt="img" src="{{site.baseurl}}/media/fashion_video_snip.jpeg"></a>
 
 <br/>
 ### Reference
