@@ -12,17 +12,23 @@ extra_link: https://www.ibm.com/watson/services/visual-recognition/
 
 The growing popularity of fitness applications and people's need for
 easy logging of calorie consumption on mobile devices has
-become made accurate food visual recognition applications increasinly relevant.
+made accurate food visual recognition increasingly desireable.
 In this project, we proposed a visual food recognition framework that integrates
-the inherent semantic relationships among fine-grained classes. 
+the semantic relationships among fine-grained food classes. 
 
 <!--more-->
 
-<img alt="img" src="{{site.baseurl}}/media/foodvr.png">
+Our framework learns semantics-aware features by formulating
+a multi-task loss function on top of a convolutional
+neural network (CNN) architecture [1,2]. It then refines the CNN
+predictions using a random walk based smoothing procedure,
+which further exploits the rich semantic information.
+A close variant of this basic idea was integrated to 
+<a href="https://www.ibm.com/blogs/research/2017/05/training-watson-see-whats-plate/">
+Watson Visual Recogntion API</a>. Just for fun, here is what the model says
+about blueberry muffins and puppies. 
 
-A simpfied idea as presented in the paper [1] was integrated to Watson Visual
-Recogntion API. And just for fun, I tried the API on puppies versus muffins 
-images:
+<img alt="img" src="{{site.baseurl}}/media/foodvr.png">
 
 <blockquote class="twitter-tweet tw-align-center" data-lang="en"><p lang="en" dir="ltr">Puppy or muffin? -- Check out Watson&#39;s answer on it! <br>🤜🤛 <a href="https://twitter.com/JohnRSmithMM?ref_src=twsrc%5Etfw">@JohnRSmithMM</a> <a href="https://twitter.com/IBMWatson?ref_src=twsrc%5Etfw">@IBMWatson</a> <a href="https://twitter.com/IBMResearch?ref_src=twsrc%5Etfw">@IBMResearch</a> <a href="https://twitter.com/CMichaelGibson?ref_src=twsrc%5Etfw">@CMichaelGibson</a> <a href="https://twitter.com/hashtag/food?src=hash&amp;ref_src=twsrc%5Etfw">#food</a> <a href="https://twitter.com/hashtag/ai?src=hash&amp;ref_src=twsrc%5Etfw">#ai</a> <a href="https://twitter.com/hashtag/machinelearning?src=hash&amp;ref_src=twsrc%5Etfw">#machinelearning</a> <a href="https://t.co/ZIfhAfSrh8">pic.twitter.com/ZIfhAfSrh8</a></p>&mdash; Hui Wu (@HuiWu_) <a href="https://twitter.com/HuiWu_/status/869902718210646016?ref_src=twsrc%5Etfw">May 31, 2017</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
