@@ -66,8 +66,8 @@ given pair of shoe images:
 
 <br/>
 ### Code and Dataset 
-Meanwhile, below is a video showcasing an user interacting with the dialog manager. 
-Code and dataset will be released soon. 
+Below is a video showcasing an user interacting with the dialog manager. 
+Code and dataset will be publicly available. 
 
 <a href="https://youtu.be/Iy-m_cxE5jg"><img alt="img" src="{{site.baseurl}}/media/fashion_video_snip.jpeg"></a>
 
