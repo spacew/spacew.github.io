@@ -37,10 +37,11 @@ aggregation, we let the retrieval system (which we call _dialog manager_) automa
 optimize the retrieval objective, which is the ranking percentile of the target image. To the best of our knowledge, 
 this is the first case of applying goal-oriented training to the context of interactive image retrieval.
 
-Below is the network architecture for our dialog manager, which consists of (1) a response encoder that
-combines the candidate image from the previous round and the natural language feedback, (2) a history tracker
-for aggregating the new evidence and the dialog history and (3) a candidate image generator, which is simply
-stochastic kNN during training and 1-NN during testing. 
+Below is the network architecture for our dialog manager, which consists of (1) a response encoder which
+embeds the information from the current dialog turn to a visual-semantic representation; 
+(2) a state tracker which receives the response representation and combines it with the history information; 
+and (3) a candidate image generator, which samples an image to return to the user based 
+on distances between the history representation to each database image.
 
 <img alt="img" src="{{site.baseurl}}/media/fashion_framework.jpg">
 
