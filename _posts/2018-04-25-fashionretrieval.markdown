@@ -7,7 +7,6 @@ conf_name: NIPS 2018
 paper_authors: Xiaoxiao Guo*, Hui Wu*, Yu Cheng, Steve Rennie, Gerald Tesauro and Rogerio Feris (* equal contribution)
 paper_pdf: https://arxiv.org/abs/1805.00145
 paper_video: https://youtu.be/Iy-m_cxE5jg
-paper_code: https://raw.githubusercontent.com/spacew/spacew.github.io/master/media/message.txt
 ---
 
 ### Overview
