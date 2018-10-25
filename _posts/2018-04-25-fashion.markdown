@@ -75,6 +75,6 @@ Code and dataset will be publicly available.
 ### Reference
 
 <p>
-  [1] Xiaoxiao Guo*, Hui Wu*, Yu Cheng, Steven Rennie, and Rogerio Schmidt Feris. "Dialog-based Interactive Image Retrieval." arXiv preprint arXiv:1805.00145 (2018).(* equal contribution)
+  [1] Xiaoxiao Guo*, Hui Wu*, Yu Cheng, Steven Rennie, and Rogerio Schmidt Feris. "Dialog-based Interactive Image Retrieval." NIPS 2018.(* equal contribution)
 </p>
 
