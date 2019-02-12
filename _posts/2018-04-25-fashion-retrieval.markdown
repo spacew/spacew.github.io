@@ -6,6 +6,7 @@ paper_name: Dialog-based Interactive Image Retrieval
 conf_name: NIPS 2018
 paper_authors: Xiaoxiao Guo*, Hui Wu*, Yu Cheng, Steve Rennie, Gerald Tesauro and Rogerio Feris (* equal contribution)
 paper_pdf: https://arxiv.org/abs/1805.00145
+paper_code:https://github.com/XiaoxiaoGuo/fashion-retrieval
 paper_video: https://youtu.be/Iy-m_cxE5jg
 ---
 
