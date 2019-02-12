@@ -66,7 +66,7 @@ given pair of shoe images:
 <br/>
 ### Code and Dataset 
 Below is a video showcasing an user interacting with the dialog manager. 
-Code and dataset will be publicly available. 
+Code and dataset <a href="https://github.com/XiaoxiaoGuo/fashion-retrieval">are available here.</a> 
 
 <a href="https://youtu.be/Iy-m_cxE5jg"><img alt="img" src="{{site.baseurl}}/media/fashion_video_snip.jpeg"></a>
 
