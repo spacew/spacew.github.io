@@ -10,7 +10,6 @@ paper_code: https://github.com/XiaoxiaoGuo/fashion-retrieval
 paper_video: https://youtu.be/Iy-m_cxE5jg
 ---
 
-
 ### Overview
 
 We proposed a novel type of _dialog agent_ for the task of _interactive image retrieval_. 
