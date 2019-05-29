@@ -2,12 +2,10 @@
 title:  The Fashion IQ Dataset 
 date:   2019-05-29
 thumb:  /media/foodvr_thumb.png
-paper_name: The Fashion IQ Dataset: Retrieving Images by Combining Side Information and Relative Natural Language Feedback
-conf_name: ACM Multimedia, 2016
-paper_authors: Hui Wu, Michele Merler, Rosario Uceda-Sosa and John R. Smith
-paper_pdf: http://www.michelemerler.com/papers/p172-wu.pdf
-extra_text: Watson API 
-extra_link: https://www.ibm.com/watson/services/visual-recognition/
+paper_name: The Fashion IQ Dataset, Retrieving Images by Combining Side Information and Relative Natural Language Feedback
+conf_name: Arxiv 2019 
+paper_authors: Xiaoxiao Guo*, Hui Wu*, Yupeng Gao, Steven J. Rennie and Rogério S. Feris (* equal contribution) 
+paper_pdf: https://arxiv.org/abs/tbd
 ---
 
 ### Overview
