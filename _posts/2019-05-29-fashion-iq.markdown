@@ -1,8 +1,8 @@
 ---
-title:  Semantic-aware Food Visual Recognition
-date:   2016-12-25
+title:  The Fashion IQ Dataset 
+date:   2019-05-29
 thumb:  /media/foodvr_thumb.png
-paper_name: Learning to make better mistakes - Semantics-aware visual food recognition
+paper_name: The Fashion IQ Dataset: Retrieving Images by Combining Side Information and Relative Natural Language Feedback
 conf_name: ACM Multimedia, 2016
 paper_authors: Hui Wu, Michele Merler, Rosario Uceda-Sosa and John R. Smith
 paper_pdf: http://www.michelemerler.com/papers/p172-wu.pdf
