@@ -35,11 +35,7 @@ which is often available in practice. The following figure shows the general pip
 
 #### Fashion Datasets 
 
-Basic statistics of
-the resulting Fashion IQ dataset are summarized in Table 1.
-In the following subsections, we provide additional details
-regarding how we collected fashion attribute labels and the
-relative captions.
+
 Below is the network architecture for our dialog manager, which consists of (1) a response encoder which
 embeds the information from the current dialog turn to a visual-semantic representation; 
 (2) a state tracker which receives the response representation and combines it with the history information; 
@@ -74,10 +70,15 @@ Code and dataset <a href="https://github.com/XiaoxiaoGuo/fashion-retrieval">are 
 <a href="https://youtu.be/Iy-m_cxE5jg"><img alt="img" src="{{site.baseurl}}/media/fashion_video_snip.jpeg"></a>
 
 ### Dataset Statistics 
+Basic statistics of
+the resulting Fashion IQ dataset are summarized in Table 1.
+In the following subsections, we provide additional details
+regarding how we collected fashion attribute labels and the
+relative captions.
 Below is a video showcasing an user interacting with the dialog manager. 
 Code and dataset <a href="https://github.com/XiaoxiaoGuo/fashion-retrieval">are available here.</a> 
 
-<a href="https://youtu.be/Iy-m_cxE5jg"><img alt="img" src="{{site.baseurl}}/media/fashion_video_snip.jpeg"></a>
+<img alt="img" src="{{site.baseurl}}/media/fashion-iq-statistics.png">
 
 ### Fashion IQ Challenge v1 
 Below is a video showcasing an user interacting with the dialog manager. 
