@@ -19,7 +19,7 @@ agents, driven by the progress of deep learning techniques for both image and na
 language understanding. A few interesting application scenarios have been explored by 
 recent work, such as collaborative drawing, visual dialog and object guessing game. 
 In this work, we tested the value of visually grounded dialog agents in a practical and yet
-challenging context. Specicially, we proposed a novel framework of image retrieval system which learns to seek 
+challenging context. Specifially, we proposed a novel framework of image retrieval system which learns to seek 
 natural and expressive dialog feedbacks from the user and iteratively refine the retrieval result. 
 
 
