@@ -17,13 +17,29 @@ We believe that our dataset can encourage further work on developing more natura
 
 <!--more-->
 
-<img alt="img" src="{{site.baseurl}}/media/feedback.jpg">
+The images of fashion products that comprise our Fashion IQ dataset were originally sourced from Amazon.com. Similar to [5], we selected three categories of product items from the original [Amazon Review data](http://jmcauley.ucsd.edu/data/amazon/), specifically:Dresses, Tops&Tees, and Shirts. Additionally, for each image, we crawled Amazon.com and extracted corresponding product information, when available. We collected natural language based
+user feedback, describing the differences between each target
+product image and a single reference product image.
+Note that these human-written relative descriptions are associated
+with real-world context, including side information
+derived from product descriptions and customer reviews.
+This unique feature of the Fashion IQ dataset allows researchers
+to investigate the advantages of natural language
+feedback in conjunction with such contextual information,
+which is often available in practice. The following figure shows the general pipelien of the dataset collection procedure. 
+
+<img alt="img" src="{{site.baseurl}}/media/fashion-iq-collection.jpg">
 
 <br/>
 ### Differences from Previous Datasets 
 
 #### Fashion Datasets 
 
+Basic statistics of
+the resulting Fashion IQ dataset are summarized in Table 1.
+In the following subsections, we provide additional details
+regarding how we collected fashion attribute labels and the
+relative captions.
 Below is the network architecture for our dialog manager, which consists of (1) a response encoder which
 embeds the information from the current dialog turn to a visual-semantic representation; 
 (2) a state tracker which receives the response representation and combines it with the history information; 
@@ -75,5 +91,6 @@ Code and dataset <a href="https://github.com/XiaoxiaoGuo/fashion-retrieval">are 
 <p>
   [1] Xiaoxiao Guo*, Hui Wu*, Yupeng Gao, Steven J Rennie, and Rogerio S Feris. "Dialog-based Interactive Image Retrieval." NIPS 2018.(* equal contribution)
   [2] Xiaoxiao Guo*, Hui Wu*, Yu Cheng, Steven Rennie, and Rogerio Schmidt Feris. "Dialog-based Interactive Image Retrieval." NIPS 2018.(* equal contribution)
+  [5] Z. Al-Halah, R. Stiefelhagen, and K. Grauman. "Fashion forward: Forecasting visual style in fashion". ICCV, 2017.
 </p>
 
