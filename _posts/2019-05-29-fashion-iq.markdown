@@ -31,6 +31,10 @@ which is often available in practice. The following figure shows the general pip
 <img alt="img" src="{{site.baseurl}}/media/fashion-iq-collection.png" width="400">
 
 <br/>
+
+### Fashion IQ Challenge v1 
+To encourage research on image retrieval based on natural language feedback, we release Fashion IQ at ICCV 2019 workshop on [Linguistics Meets Image and Video Retrieval](https://sites.google.com/view/lingir/challenge). During the challenge, the entire training and validation set and the testing queries (composed of reference image and relative captions) are release. The competition period is from June 10th to September 30th. For more information, please refer to the [Fashion IQ challenge](https://sites.google.com/view/lingir/challenge) page. 
+
 ### Differences from Previous Datasets 
 
 #### Fashion Datasets 
@@ -80,18 +84,20 @@ Code and dataset <a href="https://github.com/XiaoxiaoGuo/fashion-retrieval">are 
 
 <img alt="img" src="{{site.baseurl}}/media/fashion-iq-statistics.png">
 
-### Fashion IQ Challenge v1 
-Below is a video showcasing an user interacting with the dialog manager. 
-Code and dataset <a href="https://github.com/XiaoxiaoGuo/fashion-retrieval">are available here.</a> 
 
-<a href="https://youtu.be/Iy-m_cxE5jg"><img alt="img" src="{{site.baseurl}}/media/fashion_video_snip.jpeg"></a>
 
 <br/>
 ### References
 
 <p>
   [1] Xiaoxiao Guo*, Hui Wu*, Yupeng Gao, Steven J Rennie, and Rogerio S Feris. "Dialog-based Interactive Image Retrieval." NIPS 2018.(* equal contribution)
+  
   [2] Xiaoxiao Guo*, Hui Wu*, Yu Cheng, Steven Rennie, and Rogerio Schmidt Feris. "Dialog-based Interactive Image Retrieval." NIPS 2018.(* equal contribution)
+  
+  [3]
+  
+  [4]
+  
   [5] Z. Al-Halah, R. Stiefelhagen, and K. Grauman. "Fashion forward: Forecasting visual style in fashion". ICCV, 2017.
 </p>
 
