@@ -1,13 +1,13 @@
 ---
 title: The Fashion IQ Dataset 
 date:   2019-05-29
-thumb:  /media/fashion-iq-teaser.png
+thumb:  /media/foodvr_thumb.png
 paper_name: The Fashion IQ Dataset: Retrieving Images by Combining Side Information and Relative Natural Language Feedback
 conf_name: Arxiv 2019
 paper_authors: Xiaoxiao Guo*, Hui Wu*, Yupeng Gao, Steven J. Rennie, and Rogério S. Feris (* equal contribution)
 paper_pdf: https://arxiv.org/abs/1805.00145
-paper_code: https://github.com/XiaoxiaoGuo/fashion-retrieval
-paper_video: https://youtu.be/Iy-m_cxE5jg
+extra_text: dataset
+extra_link: https://www.ibm.com/watson/services/visual-recognition/
 ---
 
 ### Overview
