@@ -28,7 +28,7 @@ to investigate the advantages of natural language
 feedback in conjunction with such contextual information,
 which is often available in practice. The following figure shows the general pipelien of the dataset collection procedure. 
 
-<img alt="img" src="{{site.baseurl}}/media/fashion-iq-collection.png">
+<img alt="img" src="{{site.baseurl}}/media/fashion-iq-collection.png" width="400">
 
 <br/>
 ### Differences from Previous Datasets 
