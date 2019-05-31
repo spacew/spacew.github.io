@@ -39,23 +39,15 @@ To encourage research on image retrieval based on natural language feedback, we 
 <!-- ### Fashion Datasets -->
 
 ### Dataset Access and Download  
-Below is a video showcasing an user interacting with the dialog manager. 
-Code and dataset <a href="https://github.com/XiaoxiaoGuo/fashion-retrieval">are available here.</a> 
+Basic statistics of the resulting Fashion IQ dataset are summarized below.
+Dataset <a href="https://github.com/XiaoxiaoGuo/fashion-iq">is available here.</a> 
+
+<img alt="img" src="{{site.baseurl}}/media/fashion-iq-statistics.png">
+<br/>
 
 <!-- ### Demo Video -->
 
-### Dataset Statistics 
-Basic statistics of
-the resulting Fashion IQ dataset are summarized in Table 1.
-In the following subsections, we provide additional details
-regarding how we collected fashion attribute labels and the
-relative captions.
-Below is a video showcasing an user interacting with the dialog manager. 
-Code and dataset <a href="https://github.com/XiaoxiaoGuo/fashion-retrieval">are available here.</a> 
 
-<img alt="img" src="{{site.baseurl}}/media/fashion-iq-statistics.png">
-
-<br/>
 
 ### References
 <p>
