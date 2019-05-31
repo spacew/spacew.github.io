@@ -34,7 +34,7 @@ pipeline of the dataset collection procedure.
 <br/>
 
 ### Fashion IQ Challenge v1 
-To encourage research on image retrieval based on natural language feedback, we release Fashion IQ at ICCV 2019 workshop on [Linguistics Meets Image and Video Retrieval](https://sites.google.com/view/lingir/challenge). During the challenge, the entire training and validation set and the testing queries (composed of reference image and relative captions) are release. The competition period is from June 10th to September 30th. For more information, please refer to the [Fashion IQ challenge](https://sites.google.com/view/lingir/challenge) page. 
+To encourage research on image retrieval based on natural language feedback, we release Fashion IQ at ICCV 2019 workshop on [Linguistics Meets Image and Video Retrieval](https://sites.google.com/view/lingir/challenge). During the challenge, the entire training and validation set and the testing queries (composed of reference image and relative captions) are release. The competition period is from June 10th to September 30th. For more information, please refer to the [Fashion IQ challenge](https://sites.google.com/view/lingir/fashion-iq) page. 
 
 <!-- ### Fashion Datasets -->
 
