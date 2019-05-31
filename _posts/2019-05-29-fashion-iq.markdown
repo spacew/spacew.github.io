@@ -17,7 +17,7 @@ We believe that our dataset can encourage further work on developing more natura
 
 <!--more-->
 
-The images of fashion products that comprise our Fashion IQ dataset were originally sourced from Amazon.com. Similar to [5], we selected three categories of product items from the original [Amazon Review data](http://jmcauley.ucsd.edu/data/amazon/), specifically:Dresses, Tops&Tees, and Shirts. Additionally, for each image, we crawled Amazon.com and extracted corresponding product information, when available. We collected natural language based
+The images of fashion products that comprise our Fashion IQ dataset were originally sourced from Amazon.com. Similar to [3], we selected three categories of product items from the original [Amazon Review data](http://jmcauley.ucsd.edu/data/amazon/), specifically:Dresses, Tops&Tees, and Shirts. Additionally, for each image, we crawled Amazon.com and extracted corresponding product information, when available. We collected natural language based
 user feedback, describing the differences between each target
 product image and a single reference product image.
 Note that these human-written relative descriptions are associated
