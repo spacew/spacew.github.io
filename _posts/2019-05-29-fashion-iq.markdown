@@ -29,7 +29,7 @@ feedback in conjunction with such contextual information,
 which is often available in practice. The following figure shows the general 
 pipeline of the dataset collection procedure. 
 
-<img alt="img" src="{{site.baseurl}}/media/fashion-iq-collection.png" width="400">
+<img alt="img" src="{{site.baseurl}}/media/fashion-iq-collection.png" width="600">
 
 <br/>
 
