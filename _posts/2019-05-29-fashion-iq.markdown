@@ -52,11 +52,11 @@ Dataset <a href="https://github.com/XiaoxiaoGuo/fashion-iq">is available here.</
 ### References
 <p>
   [1] Xiaoxiao Guo*, Hui Wu*, Yupeng Gao, Steven J Rennie, and Rogerio S Feris. 
-  <a href="https://arxiv.org/abs/1905.12794">"The Fashion IQ Dataset: Retrieving Images by Combining Side Information and Relative Natural Language Feedback"</a>.(* equal contribution)
+ "The Fashion IQ Dataset: Retrieving Images by Combining Side Information and Relative Natural Language Feedback".(* equal contribution)  <a href="https://arxiv.org/abs/1905.12794">[pdf]</a>
   <br/>
   [2] Xiaoxiao Guo*, Hui Wu*, Yu Cheng, Steven Rennie, and Rogerio Schmidt Feris. 
-  <a href="https://papers.nips.cc/paper/7348-dialog-based-interactive-image-retrieval.pdf">"Dialog-based Interactive Image Retrieval."</a> NIPS 2018.(* equal contribution)
+  "Dialog-based Interactive Image Retrieval." NIPS 2018.(* equal contribution) <a href="https://papers.nips.cc/paper/7348-dialog-based-interactive-image-retrieval.pdf">[pdf]</a>
   <br/>
-  [3] Z. Al-Halah, R. Stiefelhagen, and K. Grauman. "Fashion forward: Forecasting visual style in fashion". ICCV, 2017.
+  [3] Z. Al-Halah, R. Stiefelhagen, and K. Grauman. "Fashion forward: Forecasting visual style in fashion". ICCV, 2017. 
 </p>
 
