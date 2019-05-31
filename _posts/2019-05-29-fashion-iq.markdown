@@ -41,7 +41,7 @@ To encourage research on image retrieval based on natural language feedback, we 
 Below is a video showcasing an user interacting with the dialog manager. 
 Code and dataset <a href="https://github.com/XiaoxiaoGuo/fashion-retrieval">are available here.</a> 
 
-<a href="https://youtu.be/Iy-m_cxE5jg"><img alt="img" src="{{site.baseurl}}/media/fashion_video_snip.jpeg"></a>
+<!-- ### Demo Video -->
 
 ### Dataset Statistics 
 Basic statistics of
