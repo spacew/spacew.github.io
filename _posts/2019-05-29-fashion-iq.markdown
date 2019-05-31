@@ -11,9 +11,7 @@ paper_pdf: https://arxiv.org/abs/tbd
 ### Overview
 
 Fashion IQ is a new and novel dataset we contribute to the research community to facilitate research on natural language based interactive image retrieval. High fidelity interactive image retrieval, despite decades of research and many great
-strides, remains a research challenge.  
-We believe that our dataset can encourage further work on developing more natural and real-world applicable conversational shopping assistants.
-
+strides, remains a research challenge. We believe that Fashion IQ can encourage further work on developing more natural and real-world applicable conversational shopping assistants.
 
 <!--more-->
 
