@@ -26,7 +26,8 @@ derived from product descriptions and customer reviews.
 This unique feature of the Fashion IQ dataset allows researchers
 to investigate the advantages of natural language
 feedback in conjunction with such contextual information,
-which is often available in practice. The following figure shows the general pipelien of the dataset collection procedure. 
+which is often available in practice. The following figure shows the general 
+pipeline of the dataset collection procedure. 
 
 <img alt="img" src="{{site.baseurl}}/media/fashion-iq-collection.png" width="400">
 
