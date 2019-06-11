@@ -11,7 +11,7 @@ paper_pdf: https://arxiv.org/abs/tbd
 ### Overview
 
 Fashion IQ is a new and novel dataset we contribute to the research community to facilitate research on natural language based interactive image retrieval. High fidelity interactive image retrieval, despite decades of research and many great
-strides, remains a research challenge. We believe that Fashion IQ can encourage further work on developing more natural and real-world applicable conversational shopping assistants, and serves as a new benchmark for composing natural language and image for image retrieval. To further research on natural language interaction for image retrieval, we announce Fashion IQ Challenge at ICCV 2019 workshop on [Linguistics Meets Image and Video Retrieval](https://sites.google.com/view/lingir/challenge).
+strides, remains a research challenge. We believe that Fashion IQ can encourage further work on developing more natural and real-world applicable conversational shopping assistants, and serves as a new benchmark for composing natural language and image for image retrieval. To further research on natural language interaction for image retrieval, we announce Fashion IQ Challenge at ICCV 2019 workshop on [Linguistics Meets Image and Video Retrieval](https://sites.google.com/view/lingir/fashion-iq).
 
 <!--more-->
 
@@ -30,7 +30,7 @@ pipeline of the dataset collection procedure.
 <br/>
 
 ### Fashion IQ Challenge v1 
-To boost progress on interactive image retrieval based on natural language feedback, we release Fashion IQ at ICCV 2019 workshop on [Linguistics Meets Image and Video Retrieval](https://sites.google.com/view/lingir/challenge). During the challenge, the entire training and validation set and the testing queries (each query is composed of a reference image and two relative captions) are open to public. The competition period is from June to September 2019. 
+To boost progress on interactive image retrieval based on natural language feedback, we release Fashion IQ at ICCV 2019 workshop on [Linguistics Meets Image and Video Retrieval](https://sites.google.com/view/lingir/fashion-iq). During the challenge, the entire training and validation set and the testing queries (each query is composed of a reference image and two relative captions) are open to public. The competition period is from June to September 2019. 
 
 For more information, please refer to the [Fashion IQ challenge](https://sites.google.com/view/lingir/fashion-iq) official page. 
 
