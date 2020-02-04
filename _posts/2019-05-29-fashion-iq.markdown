@@ -5,13 +5,13 @@ thumb:  /media/fashion-iq-teaser.png
 paper_name: The Fashion IQ Dataset, Retrieving Images by Combining Side Information and Relative Natural Language Feedback
 conf_name: Arxiv 2019 
 paper_authors: Xiaoxiao Guo*, Hui Wu*, Yupeng Gao, Steven J. Rennie and Rogério S. Feris (* equal contribution) 
-paper_pdf: https://arxiv.org/abs/tbd
+paper_pdf: https://arxiv.org/abs/1905.12794
 ---
 
 ### Overview
 
 Fashion IQ is a new and novel dataset we contribute to the research community to facilitate research on natural language based interactive image retrieval. High fidelity interactive image retrieval, despite decades of research and many great
-strides, remains a research challenge. We believe that Fashion IQ can encourage further work on developing more natural and real-world applicable conversational shopping assistants, and serves as a new benchmark for composing natural language and image for image retrieval. To further research on natural language interaction for image retrieval, we announce Fashion IQ Challenge at ICCV 2019 workshop on [Linguistics Meets Image and Video Retrieval](https://sites.google.com/view/lingir/fashion-iq).
+strides, remains a research challenge. We believe that Fashion IQ can encourage further work on developing more natural and real-world applicable conversational shopping assistants, and serves as a new benchmark for composing natural language and image for image retrieval. In 2019, we provided Fashion IQ Challenge at ICCV 2019 workshop on [Linguistics Meets Image and Video Retrieval](https://sites.google.com/view/lingir/fashion-iq). In 2020, we will host a second challenge at CVPR 2020 workshop on [Computer vision for Fashion, Art and Design](https://sites.google.com/view/cvcreative2020/fashion-iq). 
 
 <!--more-->
 
