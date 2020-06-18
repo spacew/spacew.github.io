@@ -6,6 +6,7 @@ paper_name: Fashion IQ: A New Dataset towards Retrieving Images by Natural Langu
 conf_name: Arxiv 2019 
 paper_authors: Xiaoxiao Guo*, Hui Wu*, Yupeng Gao, Steven J. Rennie and Rogério S. Feris (* equal contribution) 
 paper_pdf: https://arxiv.org/abs/1905.12794
+paper_code: https://https://www.spacewu.com/
 ---
 
 ### Overview
