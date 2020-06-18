@@ -1,4 +1,3 @@
-
 ---
 title:  Dialog-based Interactive Image Retrieval
 date:   2018-04-25
