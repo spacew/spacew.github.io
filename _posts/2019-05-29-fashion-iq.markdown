@@ -9,6 +9,7 @@ paper_pdf: https://arxiv.org/abs/1905.12794
 paper_code: https://https://www.spacewu.com/
 ---
 
+
 ### Overview
 
 Fashion IQ is a new and novel dataset we contribute to the research community to facilitate research on natural language based interactive image retrieval. High fidelity interactive image retrieval, despite decades of research and many great
